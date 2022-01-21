@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.6" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="cc" green="cc" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="false"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="BackButton" alignment="0" min="-2" pref="379" max="-2" attributes="0"/>
+                                  <Component id="SendButton" min="-2" pref="379" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="EditButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="ChartButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="DeleteButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="28" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="EnergyCostsLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SalaryLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="CalculatingDateLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ProductIDLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="SalaryFiled" min="-2" pref="84" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="RubLabel2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="EnergyCostsFiled" min="-2" pref="84" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="RubLabel1" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="MonthsCombo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="ProductIDCombo" min="-2" pref="71" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="GenrunCostsField" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="InsurCostsField" min="-2" pref="50" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="PercentLabel5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PercentLabel3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="parametersCheckBox" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ManufCostsLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="GenrunCostsLabel" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Component id="SocialChargesLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="InsurCostsLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ManufCostsField" min="-2" pref="48" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="PercentLabel4" min="-2" pref="10" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="SocialChargesField" min="-2" pref="50" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="PercentLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ProductIDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ProductIDCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CalculatingDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MonthsCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SalaryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SalaryFiled" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RubLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="EnergyCostsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="EnergyCostsFiled" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RubLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SocialChargesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SocialChargesField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PercentLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="InsurCostsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="InsurCostsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PercentLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="GenrunCostsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="GenrunCostsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PercentLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="parametersCheckBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ManufCostsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ManufCostsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PercentLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="8" max="32767" attributes="0"/>
+              <Component id="SendButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="220" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="EditButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ChartButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DeleteButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+              <Component id="BackButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="ProductIDLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID &#x41f;&#x440;&#x43e;&#x434;&#x443;&#x43a;&#x442;&#x430;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CalculatingDateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41c;&#x435;&#x441;&#x44f;&#x446; &#x440;&#x430;&#x441;&#x447;&#x451;&#x442;&#x430;"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="CalculatingTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new ccappclient.view.calculating.CalculatingTableModel(rs)" type="code"/>
+            </Property>
+            <Property name="selectionModel" type="javax.swing.ListSelectionModel" editor="org.netbeans.modules.form.editors2.JTableSelectionModelEditor">
+              <JTableSelectionModel selectionMode="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="CalculatingTableMouseClicked"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="ArrayList&lt;String[]&gt; rs = getResultFromCalculating();"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="SendButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x420;&#x430;&#x441;&#x441;&#x447;&#x438;&#x442;&#x430;&#x442;&#x44c;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SendButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="EditButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x418;&#x437;&#x43c;&#x435;&#x43d;&#x438;&#x442;&#x44c; &#x43c;&#x435;&#x441;&#x44f;&#x446;"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EditButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="DeleteButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x423;&#x434;&#x430;&#x43b;&#x438;&#x442;&#x44c; &#x437;&#x430;&#x43f;&#x438;&#x441;&#x44c;"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DeleteButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BackButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41d;&#x430;&#x437;&#x430;&#x434;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BackButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="EnergyCostsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x420;&#x430;&#x441;&#x445;&#x43e;&#x434;&#x44b; &#x43d;&#x430; &#x44d;&#x43b;&#x435;&#x43a;&#x442;&#x440;&#x43e;&#x44d;&#x43d;&#x435;&#x440;&#x433;&#x438;&#x44e;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="EnergyCostsFiled">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SalaryFiled">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SalaryLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x417;&#x430;&#x440;&#x43f;&#x43b;&#x430;&#x442;&#x430; &#x43f;&#x440;&#x43e;&#x438;&#x437;&#x432;. &#x440;&#x430;&#x431;&#x43e;&#x447;&#x438;&#x445;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RubLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x440;&#x443;&#x431;."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RubLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x440;&#x443;&#x431;."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PercentLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="%"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SocialChargesField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SocialChargesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41e;&#x442;&#x447;&#x438;&#x441;&#x43b;&#x435;&#x43d;&#x438;&#x44f; &#x43d;&#x430; &#x441;&#x43e;&#x446;. &#x43d;&#x443;&#x436;&#x434;&#x44b;: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="GenrunCostsField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="GenrunCostsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41e;&#x431;&#x449;&#x435;&#x445;&#x43e;&#x437;&#x44f;&#x439;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x44b;&#x435; &#x440;&#x430;&#x441;&#x445;&#x43e;&#x434;&#x44b;: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PercentLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="%"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PercentLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="%"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ManufCostsField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ManufCostsFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ManufCostsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41e;&#x431;&#x449;&#x435;&#x43f;&#x440;&#x43e;&#x438;&#x437;&#x432;&#x43e;&#x434;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x44b;&#x435; &#x440;&#x430;&#x441;&#x445;&#x43e;&#x434;&#x44b;: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="InsurCostsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41e;&#x431;&#x44f;&#x437;&#x430;&#x442; &#x441;&#x442;&#x440;&#x430;&#x445; &#x43e;&#x442; &#x43d;&#x435;&#x441;&#x447;.&#x441;&#x43b;&#x443;&#x447;&#x430;&#x435;&#x432;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="InsurCostsField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PercentLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="%"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="MonthsCombo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="&#x42f;&#x43d;&#x432;&#x430;&#x440;&#x44c;"/>
+            <StringItem index="1" value="&#x424;&#x435;&#x432;&#x440;&#x430;&#x43b;&#x44c;"/>
+            <StringItem index="2" value="&#x41c;&#x430;&#x440;&#x442;"/>
+            <StringItem index="3" value="&#x410;&#x43f;&#x440;&#x435;&#x43b;&#x44c;"/>
+            <StringItem index="4" value="&#x41c;&#x430;&#x439;"/>
+            <StringItem index="5" value="&#x418;&#x44e;&#x43d;&#x44c;"/>
+            <StringItem index="6" value="&#x418;&#x44e;&#x43b;&#x44c;"/>
+            <StringItem index="7" value="&#x410;&#x432;&#x433;&#x443;&#x441;&#x442;"/>
+            <StringItem index="8" value="&#x421;&#x435;&#x43d;&#x442;&#x44f;&#x431;&#x440;&#x44c;"/>
+            <StringItem index="9" value="&#x41e;&#x43a;&#x442;&#x44f;&#x431;&#x440;&#x44c;"/>
+            <StringItem index="10" value="&#x41d;&#x43e;&#x44f;&#x431;&#x440;&#x44c;"/>
+            <StringItem index="11" value="&#x414;&#x435;&#x43a;&#x430;&#x431;&#x440;&#x44c;"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ProductIDCombo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel(getIDsFromProducts())" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="InsertCalculatingTable_ProductIDCombo"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="ChartButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x413;&#x440;&#x430;&#x444;&#x438;&#x43a; &#x441;&#x442;&#x43e;&#x438;&#x43c;&#x43e;&#x441;&#x442;&#x438;"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ChartButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="parametersCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x423;&#x43a;&#x430;&#x437;&#x430;&#x442;&#x44c;&lt;br&gt;&#x434;&#x440;&#x443;&#x433;&#x438;&#x435;&lt;/html&gt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="parametersCheckBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2021"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
